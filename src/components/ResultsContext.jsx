@@ -22,6 +22,7 @@ const baseUrl = {
         "x-rapidapi-key": "3e18e82d8emsh1748de9059c7180p1dbee4jsn1938946c6a76",
         "x-rapidapi-host": "google-news-api1.p.rapidapi.com",
         "Content-Type": "application/json",
+        "Host": "newsapi90.p.rapidapi.com"
       },
     },
   },
