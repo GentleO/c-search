@@ -48,7 +48,7 @@ const baseUrl = {
 const ResultsContext = ({ children }) => {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("Elon Musk");
+  const [searchTerm, setSearchTerm] = useState("");
   const [error, setError] = useState(null);
 
   const getResults = async (pathUrl, type) => {
