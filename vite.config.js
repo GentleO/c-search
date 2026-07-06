@@ -7,6 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(), //
   ],
+  base: '/c-search/',
    proxy: {
       '/pixabay': {
         target: 'https://pixabay.com',

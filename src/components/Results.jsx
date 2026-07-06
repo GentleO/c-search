@@ -21,13 +21,13 @@ const Results = () => {
   }, [searchTerm, location.pathname]);
 
   if (loading) return (
-    <div className="flex items-center justify-center min-h-[400px]">
+    <div className="flex items-center justify-center min-h-100px">
       <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-violet-600"></div>
     </div>
   );
 
   if (error) return (
-    <div className="flex items-center justify-center min-h-[400px]">
+    <div className="flex items-center justify-center min-h-100px">
       <p className="text-red-500 text-center">{error}</p>
     </div>
   );
@@ -125,7 +125,7 @@ const Results = () => {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-[400px]">
+    <div className="flex items-center justify-center min-h-100px">
       <p className="text-gray-500 dark:text-violet-300">No results found.</p>
     </div>
   );
